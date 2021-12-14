@@ -32,6 +32,7 @@ class DateCalculateApplicationTests {
 
 	@Test
 	void addUser() {
+
 		User user = new User();
 		user.setUserId(UUID.randomUUID().toString().replaceAll("-", ""));
 		user.setUserName("康康");
